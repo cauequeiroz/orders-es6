@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/app.js"],"names":["logger","console","log","message"],"mappings":";;;;;;;;;AAAIA,Y,GAAS,SAATA,MAAS;AAAA,eAAWC,QAAQC,GAAR,CAAYC,OAAZ,CAAX;AAAA,O;;AAEbH,aAAO,sBAAP","file":"app.js","sourcesContent":["let logger = message => console.log(message);\n\nlogger('Start Development...');"]}
