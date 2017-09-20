@@ -1,3 +1,7 @@
-let logger = message => console.log(message);
+import { OrderController } from './controller/OrderController';
 
-logger('Start Development...');
+let orderController = new OrderController();
+
+document
+    .querySelector('.form')
+    .addEventListener('submit', orderController.add.bind(orderController));
